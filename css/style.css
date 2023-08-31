@@ -31,6 +31,24 @@ h1 {
 
 .card {
     float: left;
+    background-color: #100E18;
+    color: white;
+    margin-right: 20px;
+    width: calc((100% - 40px) / 3);
+}
+
+.no-margin {
+    margin-right: 0;
+}
+
+.photo-container {
+    float: left;
+    padding-right: 10px;
+}
+
+img {
+    width: 75px;
+       
 }
 
 .clearfix::after {
@@ -43,6 +61,6 @@ h1 {
 
 footer {
     background-color: #222222;
-    min-height: 200px;
+    min-height: 150px;
     color: white;
 }
