@@ -4,11 +4,40 @@
     box-sizing: border-box;
 }
 
+/*debug*/
+
+.debug .container {
+    border: 2px solid black;
+}
+
+.debug .card {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* header*/
 
+h1 {
+    color: #E53170;
+    text-align: center;
+}
 
 /*main*/
 
+.card {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 /*footer*/
 
